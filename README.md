@@ -11,12 +11,12 @@ ACME Corporation sells a number of products. As a part of their product expansio
 5)	We need to find out by region if our CPA – cost per acquisition is higher or lower than the average as per the research found on https://mystaticwebsite-3.s3.amazonaws.com/index.html
 
 
-Technical aspects
+Technical aspects:
 
 The operations team has put together a sales report in CSV format and uploaded the report to Amazon S3 – the file is publicly accessible and is at this location: https://mystaticwebsite-3.s3.amazonaws.com/test-data.csv 
 
 
-Project Structure
+Project Structure:
 
 1) Data Gathering
 This involves importing the dataframe and reviewing the data to determine whether any data cleaning was necessary
@@ -36,5 +36,5 @@ Created graphs to visualise data to compare data for different questions
 
 4) Webscraping / data cleaning
 
-Web scraped the index.html that was given and cleaned the scraped data to create a table
+Web scraped the index.html and cleaned the scraped data to create a table
 
