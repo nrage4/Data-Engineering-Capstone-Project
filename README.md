@@ -13,4 +13,28 @@ ACME Corporation sells a number of products. As a part of their product expansio
 
 Technical aspects
 
-The operations team has put together a sales report in CSV format and uploaded the report to Amazon S3 – the file is publicly accessible and is at this location: https://mystaticwebsite-3.s3.amazonaws.com/test-data.csv .
+The operations team has put together a sales report in CSV format and uploaded the report to Amazon S3 – the file is publicly accessible and is at this location: https://mystaticwebsite-3.s3.amazonaws.com/test-data.csv 
+
+
+Project Structure
+
+1) Data Gathering
+This involves importing the dataframe and reviewing the data to determine whether any data cleaning was necessary
+
+2) Data Cleaning
+
+The data cleaning involved:
+- finding the null values and dropping them
+- change the negative values to positve values
+- splitting the month and year into two different columns to make it more readable
+- saving the clean data
+
+3) Data Visualisation
+
+Created graphs to visualise data to compare data for different questions
+
+
+4) Webscraping / data cleaning
+
+Web scraped the index.html and cleaned the scraped data to create a table
+
