@@ -36,5 +36,5 @@ Created graphs to visualise data to compare data for different questions
 
 4) Webscraping / data cleaning
 
-Web scraped the index.html and cleaned the scraped data to create a table
+Web scraped the index.html that was given and cleaned the scraped data to create a table
 
